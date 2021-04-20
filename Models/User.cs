@@ -7,12 +7,12 @@ namespace SimpleApi.Models
         [Key]
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Esse campo é obrigatóroi")]
+        [Required(ErrorMessage = "Esse campo é obrigatório")]
         [MaxLength(20)]
         [MinLength(6)]
         public string UserName { get; set; }
 
-        [Required(ErrorMessage = "Esse campo é obrigatóroi")]
+        [Required(ErrorMessage = "Esse campo é obrigatório")]
         [MaxLength(20)]
         [MinLength(6)]
         public string Password { get; set; }
